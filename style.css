@@ -54,6 +54,7 @@ p {
 
 section {
     height: 80vh;
+    margin-bottom: 50px;
 }
 
 
@@ -68,4 +69,31 @@ section {
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.border-style-1 {
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.border-style-2 {
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    ;
+}
+
+.last-banner {
+    background: url("images/exp-bg.png") no-repeat left;
+}
+
+footer p {
+    text-align: center;
 }
