@@ -11,6 +11,9 @@ body {
     padding-left: 2%;
 }
 
+
+/*makeup a link button*/
+
 .link-btn {
     border: none;
     background-image: linear-gradient(45deg, rgb(226, 127, 46), orange);
@@ -23,6 +26,9 @@ body {
     position: relative;
     top: 30px;
 }
+
+
+/*mouse over effect*/
 
 .link-btn:hover {
     background-image: linear-gradient(45deg, orange, rgb(226, 127, 46));
