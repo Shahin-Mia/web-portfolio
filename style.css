@@ -1,5 +1,41 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+/*makeup a link button*/
+
+.link-btn {
+    border: none;
+    background-image: linear-gradient(45deg, rgb(226, 127, 46), orange);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+
+
+/*mouse over effect*/
+
+.link-btn:hover {
+    background-image: linear-gradient(45deg, orange, rgb(226, 127, 46));
+}
+
+img {
+    width: 100%;
 }
 
 h1 {
@@ -7,6 +43,63 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    font-size: 35px;
+}
+
+p {
+    color: grey
+}
+
+
+/*high-lighting my Name*/
+
 .name-highlight {
     color: orange;
+}
+
+section {
+    height: 80vh;
+    margin-bottom: 50px;
+}
+
+
+/*set a fancy background to my header section*/
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.middle {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.border-style-1 {
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.border-style-2 {
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    ;
+}
+
+.last-banner {
+    background: url("images/exp-bg.png") no-repeat left;
+}
+
+footer p {
+    text-align: center;
 }
